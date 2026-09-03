@@ -4,10 +4,10 @@ class Day02 {
         System.out.println("PERKENALKAN DIRI");
 
         //MENGGUNAKAN print() + println()
-        System.out.print("Nama:");
+        System.out.print("Nama: ");
         System.out.println("Rahmat");
         
-        System.out.print("NIM:");
+        System.out.print("NIM: ");
         System.out.println("H0726304");
 
         //MENGGUNAKAN printf()
