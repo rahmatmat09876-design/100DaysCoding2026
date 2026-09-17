@@ -1,0 +1,17 @@
+
+import java.util.Scanner;
+
+public class Day16 {
+    public static void main(String[] args) {
+        Scanner baca = new Scanner(System.in);
+
+        System.out.print("Masukkan jumlah pensil: ");
+        int pensil = baca.nextInt();
+
+        int sisa = pensil % 4;
+
+        System.out.println("Sisa pensil: " + sisa);
+
+        baca.close();
+    }
+}
